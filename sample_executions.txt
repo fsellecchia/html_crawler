@@ -1,0 +1,15 @@
+# Sample 1
+python3 html_crawler.py -s inputs/sample-0-origin.html -e make-everything-ok-button -d inputs/sample-1-evil-gemini.html
+/html/body/div/div/div[3]/div[1]/div/div[2]/a[2]
+
+#Sample 2
+python3 html_crawler.py -s inputs/sample-0-origin.html -e make-everything-ok-button -d inputs/sample-2-container-and-clone.html
+/html/body/div/div/div[3]/div[1]/div/div[2]/div/a
+
+#Sample 3
+python3 html_crawler.py -s inputs/sample-0-origin.html -e make-everything-ok-button -d inputs/sample-3-the-escape.html
+/html/body/div/div/div[3]/div[1]/div/div[3]/a
+
+Sample 4
+python3 html_crawler.py -s inputs/sample-0-origin.html -e make-everything-ok-button -d inputs/sample-4-the-mash.html
+/html/body/div/div/div[3]/div[1]/div/div[3]/a
